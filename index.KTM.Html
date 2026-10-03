@@ -3,10 +3,79 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>KTM weboldal</title>
+    
+    <style>
+        button {
+            background-color: orange;
+            color: black;
+            font-weight: 800;
+        }
+    </style>
+
+    <style>
+        .news {
+            text-align: center;
+        }
+    </style>
+
+    <style>
+        .NEWS {
+            font-weight: 600;
+        }
+    </style>
+
 </head>
 <body>
-    <h1>KTM </h1>
-    
+    <h1 style="background-color: orange; color: black; font-weight: bold; text-align: center;">KTM </h1>
+
+    <a target="_blank" href="https://www.ktm.com/en-hu.html">Official site of KTM </a>
+
+    <h2 style="text-align: center;">MODELS NEWS</h2>
+
+   <p class="news"> <button style="margin-top: 50px;" onclick="kiir1()">MOTOCROSS</button></p>
+   <p class="news"> <button onclick="kiir2()">ENDURO</button></p>
+   <p class="news"> <button onclick="kiir3()">ELECTRIC</button></p>
+   <p class="news"> <button onclick="kiir4()">DUAL SPORT</button></p>
+   <p class="news"> <button onclick="kiir5()">ADVENTURE</button></p>
+   <p class="news"> <button onclick="kiir6()">SPORTS TOURER</button></p>
+   <p class="news"> <button onclick="kiir7()">SUPERMOTO</button></p>
+   <p class="news"> <button onclick="kiir8()">NAKED BIKE</button></p>
+   <p class="news"> <button onclick="kiir9()">SUPERSPORT</button></p>
+   <p class="news"> <button onclick="kiir10()">BRABUS</button></p>
+   
+   <p style="margin-top: 100px;" id="szoveg"></p>
+   <div id="motocross" style="display: none;">
+       
+    <h2 class="news">RIDE LIKE A WINNER WITH THE 2025 KTM SX-F FACTORY EDITIONS</h2>
+       
+           <p class="NEWS">2025 KTM 450 SX-F and KTM 250 SX-F FACTORY EDITIONS are set to roll into start gates and will soon be leaving track rivals in their roost. The latest versions of KTM’s primed READY TO RACE machinery are the only pure competition-focused high-end options for riders who want - and need - to go that extra mile and at extra pace.
+
+           In trusted KTM FACTORY EDITION style, the 2025 models boast the full Red Bull KTM Factory Racing trim in dedication to the three notable riders that will front the team and company’s push in 2025 AMA Supercross and Motocross series: Chase Sexton, Aaron Plessinger and Tom Vialle. The 2025 line-up carries the latest race look and graphics for the new season and with choices between #4 (Sexton) #7 (Plessinger) or #1 (Vialle) for the KTM 450 SX-F and KTM 250 SX-F FACTORY EDITIONs respectively. These bikes are the closest riders and fans can come to the Pros courtesy of a host of performance and practical KTM upgrades; the only separators will be the talent, fitness, and the hands on the throttles!</p>
+           
+           <div style="text-align: center;">
+            <img  src="motocross.jpg" alt="500">
+           </div>
+           
+   </div>
+   
+   
+   <script>
+       function kiir1() {
+           document.getElementById("szoveg").innerHTML  =
+            document.getElementById("motocross").innerHTML
+           
+           
+        }
+        
+        function kiir2() {
+            document.getElementById("szoveg").innerHTML = "hírek2";
+        }
+    </script>
+
+
+
+
+
 </body>
 </html>
