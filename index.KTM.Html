@@ -4,74 +4,22 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>KTM weboldal</title>
+
+    <link rel="stylesheet" href="KTM_weboldal.css">
     
-    <style>
-        button {
-            background-color: orange;
-            color: black;
-            font-weight: 800;
-        }
-    </style>
-
-    <style>
-        .news {
-            text-align: center;
-        }
-    </style>
-
-    <style>
-        .tartalom {
-            display: flex;
-            align-items: center;
-            gap: 30px;
-            font-weight: 700;
-            font-size: larger;
-            text-align: justify;
-        }
-    </style>
-
-    <style>
-        .sima_szöveg {
-            font-size: larger;
-            text-align: center;
-            font-weight: 700;
-            margin-top: 50px;
-        }
-
-    </style>
-
-    <style>
-        li::marker {
-            color: rgb(255, 166, 0);
-        }
-    </style>
-    
-    <style>
-        .felsorolás {
-            margin-top: 30px;
-        }
-    </style>
-
-    <style>
-        a {
-            color: orange;
-        }
-    </style>
-
-    <style>
-        html {
-            scroll-behavior: smooth;
-        }
-    </style>
+   
 
 
 </head>
 <body id="teteje">
+    
+
+
     <h1 style="background-color: orange; color: black; font-weight: bold; text-align: center;">KTM </h1>
 
     <a target="_blank" href="https://www.ktm.com/en-hu.html">Official site of KTM </a>
 
-    <h2 style="text-align: center;">MODELS NEWS</h2>
+    <h2 style="text-align: center; color: whitesmoke;">MODELS NEWS</h2>
 
    <p class="news"> <button style="margin-top: 50px;" onclick="kiir1()">MOTOCROSS</button></p>
    <p class="news"> <button onclick="kiir2()">ENDURO</button></p>
@@ -143,16 +91,43 @@
                 <p>The 2025 KTM SX-F FACTORY EDITIONS will be rolling off the Austrian production line in December and will be available at authorized KTM dealers from January 2025.</p>
             </ul>
 
-            
         </div>
+        
+         <p style="text-align: right;"><a href="#teteje">BACK TO TOP</a></p>
 
-        <p style="text-align: right;"><a href="#teteje">BACK TO TOP</a></p>
 
 
+        
 
    </div>
        
-    
+    <div id="enduro" style="display: none;">
+
+      <h2 class="news">TOTAL DOMINANCE-THE 2027 KTM ENDURO RANGE RETAINS ITS WINNING RECIPE</h2>
+          
+        <div>
+            <img class="kép_középen" src="képek/enduro.jpg" alt="500">
+        </div>
+
+        <p  class="sima_szöveg">The 2027 KTM EXC and EXC-F range builds on KTM's long-standing success at the highest level of enduro competition. Developed through years of championship-winning racing, the latest lineup delivers proven performance, precise control, and rider-focused ergonomics across all terrain.</p>
+
+        <p class="sima_szöveg">For 2027, the KTM EXC range receives a fresh Graphics update, reinforcing its distinctive READY TO RACE identity while maintaining the established technical platforms that define KTM’s position at the forefront of enduro. The range continues with KTM’s advanced chassis concept, proven WP XACT suspension, and refined engine packages across both 2-stroke and 4-stroke models—ensuring a consistent and competitive performance base for riders at every level. </p>
+
+        <p class="sima_szöveg">In addition, the KTM enduro range offers access to KTM’s Premium Manufacturer’s Warranty, available in certain territories and subject to servicing and maintenance in line with manufacturer guidelines through authorized KTM dealers. Spanning a broad displacement range, the 2027 KTM enduro lineup caters to riders of all levels and disciplines. From lightweight 2-stroke machines such as the KTM 125 XC-W to the powerful KTM 500 EXC-F, each model is built to deliver precise handling, controllable power, and confidence in demanding offroad conditions. </p>
+
+        <p class="sima_szöveg">Across the 2-stroke lineup, KTM’s Throttle Body Injection (TBI) system ensures consistent fueling, crisp throttle response, and smooth, controllable power delivery—from low-speed technical terrain to high-revving special tests. </p>
+
+        <p class="sima_szöveg">On the 4-stroke side, the KTM 250 EXC-F provides an accessible entry into race-proven performance, while the KTM 350 EXC-F remains a benchmark for versatility, balancing agility with increased power. At the top of the range, the KTM 450 EXC-F and KTM 500 EXC-F deliver strong, reliable performance for demanding terrain and extended race conditions. Supported by KTM’s global dealer network, riders benefit from expert servicing, widespread parts availability, and a full range of KTM PowerParts and KTM PowerWear to customize performance, protection, and comfort. </p>
+
+        <p class="sima_szöveg">Built on decades of racing success and continuous development, the 2027 KTM EXC range remains a reference point in enduro—combining proven performance, modern technology, and long-term reliability for riders worldwide. </p>
+
+         <p style="text-align: right;"><a href="#teteje">BACK TO TOP</a></p>
+
+
+    </div>
+
+        
+      
            
            
 
@@ -166,7 +141,8 @@
         }
         
         function kiir2() {
-            document.getElementById("szoveg").innerHTML = "balint";
+            document.getElementById("szoveg").innerHTML = 
+             document.getElementById("enduro").innerHTML 
         }
     </script>
 
