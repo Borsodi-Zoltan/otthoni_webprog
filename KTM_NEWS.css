@@ -1,0 +1,89 @@
+  body {
+    background-image: url(képek/háttérkép.jpg);
+
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    background-attachment: fixed;
+
+    
+  }
+
+         .sima_szöveg, .news, .tartalom {
+            color: whitesmoke; 
+         }
+
+        
+        button {
+            background-color: orange;
+            color: black;
+            font-weight: 800;
+        }
+    
+
+   
+        .news {
+            text-align: center;
+        }
+    
+
+    
+        .tartalom {
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            font-weight: 700;
+            font-size: larger;
+            text-align: justify;
+        }
+   
+
+    
+        .sima_szöveg {
+            font-size: larger;
+            text-align: center;
+            font-weight: 700;
+            margin-top: 50px;
+        }
+
+    
+
+   
+        li::marker {
+            color: rgb(255, 166, 0);
+        }
+   
+    
+    
+        .felsorolás {
+            margin-top: 30px;
+        }
+    
+
+  
+        a {
+            color: orange;
+        }
+    
+
+    
+        html {
+            scroll-behavior: smooth;
+        }
+
+        .kép_középen {
+            margin: auto;
+            display: block;
+        }
+        
+        .enduro_p {
+            margin-top: 50px;
+        }
+
+        p {
+            padding: 0 30px;
+        }
+
+    
+    
+  
