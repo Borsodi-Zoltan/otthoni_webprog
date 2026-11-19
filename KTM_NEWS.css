@@ -1,10 +1,10 @@
   body {
     background-image: url(képek/háttérkép.jpg);
-
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
     background-attachment: fixed;
+     font-size: larger;
 
     
   }
@@ -24,8 +24,12 @@
    
         .news {
             text-align: center;
+           
         }
-    
+        
+        button {
+            cursor: pointer;
+        }
 
     
         .tartalom {
@@ -39,11 +43,12 @@
    
 
     
-        .sima_szöveg {
+        .sima_szoveg {
             font-size: larger;
             text-align: center;
             font-weight: 700;
             margin-top: 50px;
+            color: white;
         }
 
     
@@ -57,6 +62,7 @@
     
         .felsorolás {
             margin-top: 30px;
+            color: white;
         }
     
 
@@ -83,6 +89,35 @@
         p {
             padding: 0 30px;
         }
+
+        .oldalso-cimek {
+            color: whitesmoke; 
+        }
+
+        .jobb {
+            color: white;
+            display: flex;
+            align-items: center;
+            gap: 30px;
+            font-weight: 700;
+            font-size: larger;
+            text-align: justify;
+            padding-top: 50px;
+        }
+
+        h3 {
+            padding-top: 150px;
+            color: white;
+        }
+
+        .feher-szoveg {
+            color: white;
+            font-size: larger;
+            font-weight: 700;
+            margin-top: 50px;
+
+        }
+        
 
     
     
