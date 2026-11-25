@@ -1,5 +1,9 @@
+ html {
+  scroll-behavior: smooth;
+} 
+
 body {
-    background-image: url(képek/háttérkép2.webp);
+    background-image: url(képek/háttér.jpg);
     background-repeat: no-repeat;
      background-size: cover;
     background-position: center;
@@ -19,11 +23,11 @@ body {
     font-size: 25px;
     cursor: pointer;
     text-align: center;
-
-
-
-    
+      
 }
+
+
+
 h2 {
     text-align: center;
     font-size: 70px;
@@ -36,9 +40,107 @@ p {
 }
 
 ul {
+    justify-content: center;
     display: flex;
     gap: 300px;
     list-style: none;
     padding: 0;
 }
 
+#news_leiras {
+    
+    background-color: gray;
+    width: 220px;
+    height: 200px;
+    padding: 10px;
+    font-size: large;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;    
+}
+
+#motobike_leiras {
+    background-color: gray;
+    width: 220px;
+    height: 200px;
+    padding: 10px;
+    font-size: large;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;  
+}
+
+#products_leiras {
+    background-color: gray;
+    width: 220px;
+    height: 200px;
+    padding: 10px;
+    font-size: large;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;  
+}
+
+#history_leiras {
+    background-color: gray;
+    width: 220px;
+    height: 200px;
+    padding: 10px;
+    font-size: large;
+    border-top-left-radius: 10px;
+    border-top-right-radius: 10px;
+    border-bottom-left-radius: 10px;  
+}
+
+h3 {
+    font-size: 30px;
+}
+
+
+
+.leiras-sor {
+  display: flex;
+  justify-content: center; 
+  gap: 300px;              
+  margin-top: 10px;
+  
+}
+
+footer {
+    background-color: orange;
+    
+}
+.ready {
+    font-style: italic;
+    text-align: center;
+    margin-top: 0px;
+}
+
+h4 {
+    margin-top: 70px;
+    background-color: orange;
+    padding: 5px;
+    font-size: large;
+}
+
+ td {
+    padding: 5px;
+
+    border: 5px solid orange;
+}
+
+h5 {
+    text-decoration: underline;
+    font-size: larger;
+
+}
+
+table {
+    clear: both;
+   
+}
+
+td p {
+    padding-right: 30px;
+    
+}
